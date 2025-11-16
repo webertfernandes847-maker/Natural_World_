@@ -1,23 +1,5 @@
 <html dir="ltr" lang="pt-BR" 
-    }
-    fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
-      if (response.status !== 200) {
-        return;
-      }
-      response.text().then(footerStr => {
-        container.innerHTML = '';
-        const div = document.createElement('div');
-        div.innerHTML = footerStr;
-        for (const child of [...div.children]) {
-          if (child.tagName.toLowerCase() !== 'script') {
-            container.append(child);
-          }
-        }
-
-        (() => { !function(){"use strict";const c="active",t="modal_backdrop",o="modal",e="form_close_initial",n="form_report",s="privacy_policy_modal",l="form_close_privacy_policy",i="report_button",d="privacy_policy_button",a=document.getElementById(t),m=document.getElementById(o),r=document.getElementById(e),u=document.getElementById(n),y=document.getElementById(s),p=document.getElementById(l),L=document.getElementById(i),_=document.getElementById(d);function f(){a.classList.remove(c),m.classList.remove(c),L.classList.remove(c),L.focus(),a.onclick=null}function k(){a.classList.remove(c),y.classList.remove(c),_.classList.remove(c),_.focus(),a.onclick=null}u.onclick=function(){const{origin:c,pathname:t}=window.location,o=c+t,e=u.dataset.reportUrl+encodeURIComponent(o);window.open(e)},r.onclick=f,L.onclick=function(){a.classList.add(c),a.onclick=f,m.classList.add(c),L.classList.add(c)},p.onclick=k,_.onclick=function(){a.classList.add(c),a.onclick=k,y.classList.add(c),_.classList.add(c)}}(); })();
-      });
-    });
-  }
+  
 </script><script nonce="">
     window.C_CAPTCHA_IMPLEMENTATION = 'RECAPTCHA';
 </script><script nonce="">
