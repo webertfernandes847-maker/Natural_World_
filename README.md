@@ -1,10 +1,4 @@
 <html dir="ltr" lang="pt-BR" 
-      });
-    </script><script nonce="">
-  const lang = navigator.language ? navigator.language : 'en';
-  window.canva_installFooter = (container) => {
-    if (!(container instanceof HTMLDivElement)) {
-      return;
     }
     fetch('_footer?lang=' + encodeURIComponent(lang)).then(response => {
       if (response.status !== 200) {
