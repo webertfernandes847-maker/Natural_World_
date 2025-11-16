@@ -1,4 +1,4 @@
-<html dir="ltr" lang="pt-BR" = JSON.parse('{"A":"DAG4r9IRB8c","B":"eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwia2lkIjoia2lkLTE3NDAwODM2MjAyNzEifQ..lLziX1Nk4i4D3FCx.eF_9y3q5Ip_A1H9qk6VqIYnWmnpnZumumrHSVj3UfKeBlVAtC0uXXtV5Yqe6TmJyRPt_TlwAxw.c5r_om87Zxlmt7WeJSvDYg"}');</script><script nonce="">
+<html dir="ltr" lang="pt-BR" 
       document.addEventListener('contextmenu', (e) => {
         const isMedia = ['img', 'image', 'video', 'svg', 'picture'].some(
           tagName => tagName.localeCompare(e.target.tagName, undefined, { sensitivity: 'base' }) === 0,
